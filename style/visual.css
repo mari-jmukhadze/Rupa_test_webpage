@@ -1,0 +1,491 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  line-height: 1.3;
+}
+
+p {
+  color: #777777;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #3e1d1dc7;
+}
+
+a:hover {
+  color: #2196f3;
+}
+
+h1 {
+  font-size: 42px;
+  font-family: 'Lato', sans-serif;
+}
+
+h2 {
+  font-size: 37px;
+  font-family: 'Lato', sans-serif;
+}
+
+h3 {
+  font-family: 'Lato', sans-serif;
+}
+
+button {
+  background-color: #2196f3;
+  height: 40px;
+  border: none;
+  border-radius: 17px;
+  color: white;
+  width: 106px;
+  text-align: center;
+  font-size: 15px;
+}
+
+button :hover {
+  cursor: pointer;
+}
+
+.container {
+  width: 95%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-item-align: center;
+      align-self: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
+}
+
+.container .cont1, .container .cont2 {
+  width: 50%;
+}
+
+.container .cont1 {
+  vertical-align: center;
+}
+
+.container .cont1 img {
+  height: 400px;
+}
+
+.container .cont2 {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 45%;
+  padding-left: 100px;
+}
+
+.container .cont2 p {
+  font-size: 18px;
+}
+
+.container .cont2 h2 {
+  font-size: 30px;
+}
+
+header {
+  -webkit-box-shadow: 7px 2px 11px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: 7px 2px 11px 0px rgba(0, 0, 0, 0.3);
+  background-color: #f7f7f9;
+  position: fixed;
+  width: 100%;
+}
+
+.nav {
+  padding-right: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.nav ul li {
+  margin: 5px;
+  display: inline-block;
+}
+
+.nav ul li #homme {
+  color: #2196f3;
+}
+
+.nav ul li button {
+  height: 30px;
+}
+
+.home {
+  background-color: #f7f7f9;
+  padding-top: 104px;
+}
+
+.home .container {
+  text-align: center;
+}
+
+#about .container {
+  text-align: center;
+}
+
+#features {
+  background-color: #f7f7f9;
+}
+
+.features {
+  text-align: center;
+  padding-top: 45px;
+  padding-bottom: 50px;
+}
+
+.features p {
+  font-size: 18px;
+}
+
+.features h2 {
+  font-size: 30px;
+}
+
+.features .feature {
+  border: 1px solid #dce8ff;
+  text-align: center;
+  background-color: white;
+  padding-top: 30px;
+  width: 30%;
+  margin-top: 20px;
+}
+
+.features .feature i {
+  font-size: 40px;
+  border: 1px solid #dce8ff;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  color: #2196f3;
+}
+
+.demo {
+  text-align: center;
+  background-image: url("./imgs/cup-hd-wallpaper-laptop-tea-100738.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.demo h2 {
+  font-size: 45px;
+  color: white;
+}
+
+.demo i {
+  color: #2196f3;
+  font-size: 110px;
+}
+
+#core .cores {
+  margin-left: 140px;
+}
+
+#core i {
+  color: #2196f3;
+  font-size: 30px;
+}
+
+#core .container img {
+  height: 300px;
+}
+
+#core .txt {
+  text-align: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+#core .con1 {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+#core .con2 {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#core .con1, #core .con2 {
+  width: 75%;
+}
+
+#core .cont2 {
+  padding-right: 75px;
+  margin-left: 20px;
+  -webkit-box-shadow: 3px 5px 8px 5px #dce8ff;
+          box-shadow: 3px 5px 8px 5px #dce8ff;
+  padding-top: 20px;
+}
+
+#why {
+  padding-bottom: 40px;
+  background-color: #f7f7f9;
+}
+
+#why ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#why ul li {
+  line-height: 1.5;
+}
+
+#why ul i {
+  color: #2196f3;
+}
+
+#why .cont2 {
+  text-align: left;
+}
+
+#products {
+  padding-bottom: 50px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+#products h4 {
+  font-size: 28px;
+}
+
+#products .product {
+  padding-bottom: 30px;
+  margin: 15px;
+  -webkit-box-shadow: 0px 1px 11px 1px #dce8ff;
+          box-shadow: 0px 1px 11px 1px #dce8ff;
+  width: 30%;
+}
+
+#products .product img {
+  margin-top: 10px;
+  margin-left: 20px;
+  height: 300px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+#products .product p {
+  font-size: 20px;
+  color: #2196f3;
+}
+
+#products .product p::before {
+  content: "$";
+  font-size: 26px;
+  color: #2196f3;
+}
+
+#testimonials {
+  padding-top: 40px;
+  padding-bottom: 30px;
+  background-color: #f7f7f9;
+  text-align: center;
+}
+
+#testimonials .cont2 {
+  text-align: left;
+  border: 1px solid #dce8ff;
+  width: 30%;
+  padding-left: 30px;
+  margin-top: 20px;
+  background-color: white;
+}
+
+#testimonials .cont2 p {
+  font-size: 15px;
+}
+
+#testimonials .people {
+  background-color: #f7f7f9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  border: none;
+  margin-top: 20px;
+  width: 30%;
+}
+
+#testimonials .people img {
+  border: 1px solid #dce8ff;
+  border-radius: 50%;
+}
+
+#testimonials .people > div {
+  margin-left: 20px;
+}
+
+#testimonials .dots {
+  text-align: center;
+  color: #2196f3;
+  margin-top: 70px;
+}
+
+#testimonials .dots i:hover {
+  cursor: pointer;
+}
+
+#FAQ {
+  text-align: center;
+  padding-top: 40px;
+}
+
+#FAQ p :hover {
+  cursor: pointer;
+}
+
+#FAQ .que {
+  text-align: left;
+  height: 50px;
+  border: 1px solid #dce8ff;
+  margin: 10px;
+  padding-left: 10px;
+  border-radius: 7px;
+}
+
+#subscribe {
+  background-image: url("./imgs/cup-hd-wallpaper-laptop-tea-100738.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  padding-top: 45px;
+  padding-bottom: 25px;
+}
+
+#subscribe .sub {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+#subscribe .sub h2 {
+  color: white;
+  font-size: 37px;
+}
+
+#subscribe .sub input, #subscribe .sub button {
+  width: 100%;
+}
+
+#subscribe .sub input {
+  height: 46px;
+  border-top-right-radius: 23px;
+  border-top-left-radius: 23px;
+  border-bottom-left-radius: 23px;
+  border-bottom-right-radius: 23px;
+  border: none;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#subscribe .sub button {
+  height: 46px;
+}
+
+#contact {
+  text-align: center;
+  padding-top: 40px;
+}
+
+#contact .container {
+  width: 75%;
+  text-align: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-left: 140px;
+  padding-top: 20px;
+}
+
+#contact .container h2 {
+  font-size: 30px;
+}
+
+#contact .container form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 70%;
+}
+
+#contact .container form input {
+  height: 50px;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border: 1px solid #dce8ff;
+  margin: 10px;
+  padding: 10px;
+}
+
+#contact .container form textarea {
+  margin-top: 10px;
+  height: 200px;
+  border-radius: 25px;
+  border: 1px solid #dce8ff;
+}
+
+#contact .container form button {
+  margin-top: 10px;
+}
+
+#contact .container aside {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#contact .container aside .call::before {
+  font-family: "Font Awesome 5 Free";
+  color: #2196f3;
+  font-size: 20px;
+  content: '\f082';
+}
+
+#contact .container aside .mail::before {
+  font-family: "Font Awesome 5 Free";
+  color: #2196f3;
+  font-size: 20px;
+  content: '\f0e0';
+}
+
+#contact .container aside i {
+  font-size: 25px;
+  color: #2196f3;
+}
+/*# sourceMappingURL=visual.css.map */

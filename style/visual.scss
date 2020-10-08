@@ -1,0 +1,413 @@
+$maintext: #3e1d1dc7;
+$buttoncolor: #2196f3;
+$bgcolor: #f7f7f9;
+$paragraphcolor: #777777;
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    line-height: 1.3;
+}
+
+p {
+    color: $paragraphcolor;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: $maintext;
+
+    &:hover {
+        color: $buttoncolor;
+    }
+}
+
+h1 {
+    font-size: 42px;
+    font-family: 'Lato', sans-serif;
+}
+
+h2 {
+    font-size: 37px;
+    font-family: 'Lato', sans-serif;
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+}
+
+button {
+    background-color: $buttoncolor;
+    height: 40px;
+    border: none;
+    border-radius: 17px;
+    color: white;
+    // padding: 15px;
+    width: 106px;
+    text-align: center;
+    font-size: 15px;
+    :hover {
+        cursor: pointer;
+    }
+}
+
+.container {
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    flex-wrap: wrap;
+    text-align: center;
+    .cont1, .cont2 {
+        width:50%;
+    }
+    .cont1 {
+        vertical-align: center;
+        img {
+            height: 400px;
+        }
+    }
+    .cont2{
+        align-self: center;
+        width: 45%;
+        padding-left: 100px;
+        p {
+            font-size: 18px;
+        }
+        h2 {
+            font-size: 30px;
+        }
+    }
+}
+
+header {
+    box-shadow: 7px 2px 11px 0px rgba(0,0,0,0.30);
+    background-color: $bgcolor;
+    position: fixed;
+    width: 100%;
+}
+
+.nav {
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-around;
+    ul {
+        li {
+            margin: 5px;
+            display: inline-block;
+            #homme {
+                color: $buttoncolor;
+            }
+            button {
+                height: 30px;
+            }
+        }
+    }
+}
+
+.home {
+    background-color: $bgcolor;
+    padding-top: 104px;
+    .container {
+        text-align: center;
+    }
+    
+}
+
+#about {
+    .container {
+        text-align: center;
+    }
+}
+
+#features {
+    background-color: $bgcolor;
+}
+
+.features {
+    text-align: center;
+    padding-top: 45px;
+    p {
+        font-size: 18px;
+    }
+    h2 {
+        font-size: 30px;
+    } 
+    .feature {
+        border: 1px solid #dce8ff;
+        text-align: center;
+        background-color: white;
+        padding-top: 30px; 
+        width: 30%;
+        margin-top: 20px;
+        i {
+            font-size: 40px;
+            border: 1px solid #dce8ff;
+            border-radius: 50%;
+            height: 50px;
+            width: 50px;
+            color: $buttoncolor;
+        }
+    }
+    padding-bottom: 50px;
+}
+
+.demo {
+    text-align: center;
+    background-image: url("./imgs/cup-hd-wallpaper-laptop-tea-100738.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    h2 {
+        font-size: 45px;
+        color: white;
+    }
+    i {
+        color: $buttoncolor;
+        font-size: 110px;
+    }
+}
+
+#core {
+    .cores {
+        margin-left: 140px;
+    }
+    i {
+        color: $buttoncolor;
+        font-size: 30px;
+    }
+    .container {
+
+        img {
+            height: 300px;
+        }
+    }
+    .txt {
+        // width: 60%;
+        text-align: center;
+        align-self: center;
+    }.con1 {
+        flex-direction: row-reverse;
+    }
+    .con2 {
+        flex-direction: row;
+    }
+
+    .con1, .con2 {
+        width: 75%;
+    }
+    .cont2 {
+        padding-right: 75px;
+        margin-left: 20px;
+        box-shadow: 3px 5px 8px 5px #dce8ff;
+        padding-top: 20px;
+    }
+}
+
+#why {
+    padding-bottom: 40px;
+    background-color: $bgcolor;
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        li {
+            line-height: 1.5;
+        }
+        i {
+            color: $buttoncolor;
+        }
+    }
+    .cont2{
+        text-align: left;
+    }
+}
+
+#products {
+    padding-bottom: 50px;
+    text-align: center;
+    padding-top: 40px;
+    h4 {
+        font-size: 28px;
+    }
+        .product {
+            padding-bottom: 30px;
+            margin: 15px;
+            img {
+                margin-top: 10px;
+                margin-left: 20px;
+                height: 300px;
+                align-self: center;
+            }
+            box-shadow: 0px 1px 11px 1px #dce8ff;
+            width: 30%;
+            p{
+                font-size: 20px;
+                color: $buttoncolor;
+            }
+             p::before {
+                content: "$";
+                font-size: 26px;
+                color: $buttoncolor;
+             }
+        }
+}
+
+#testimonials {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    background-color: $bgcolor;
+    text-align: center;
+    .cont2 {
+        text-align: left;
+        border: 1px solid #dce8ff;
+        width: 30%;
+        padding-left: 30px;
+        margin-top: 20px;
+        background-color: white;
+        p {
+            font-size: 15px;
+        }
+    }
+    .people {
+        background-color: $bgcolor;
+        display: flex;
+        justify-content: left;
+        border: none;
+        margin-top: 20px;
+        width: 30%;
+        img {
+            border: 1px solid #dce8ff;
+            border-radius: 50%;
+            
+        }
+        >div {
+            margin-left: 20px;
+        }
+    }
+    .dots {
+        text-align: center;
+        color: $buttoncolor;
+        margin-top: 70px;
+        i:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+#FAQ {
+    text-align: center;
+    padding-top: 40px;
+    p {
+        :hover {
+            cursor: pointer;
+        }
+    }
+    .que {
+        text-align: left;
+        height: 50px;
+        border: 1px solid #dce8ff;
+        margin: 10px;
+        padding-left: 10px;
+        border-radius: 7px;
+    }
+}
+
+#subscribe {
+    background-image: url("./imgs/cup-hd-wallpaper-laptop-tea-100738.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 45px;
+    padding-bottom: 25px;
+    .sub {
+        h2 {
+            color: white;
+            font-size: 37px;
+        }
+        text-align: center;
+        width: 50%;
+        margin: 0 auto;
+        input, button {
+            width: 100%;
+        }
+        input {
+            height: 46px;
+            border-top-right-radius: 23px;
+            border-top-left-radius: 23px;
+            border-bottom-left-radius: 23px;
+            border-bottom-right-radius: 23px;
+            border: none;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        button {
+            height: 46px;
+        }
+    }
+}
+
+#contact {
+    text-align: center;
+    padding-top: 40px;
+    .container {
+        width: 75%;
+        text-align: center;
+        align-self: center;
+        margin-left: 140px;
+        padding-top: 20px;
+        h2 {
+            font-size: 30px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 70%;
+            input {
+                height: 50px;
+                border-top-right-radius: 25px;
+                border-top-left-radius: 25px;
+                border-bottom-left-radius: 25px;
+                border-bottom-right-radius: 25px;
+                border: 1px solid #dce8ff;
+                margin: 10px;
+                padding: 10px;
+            }
+            textarea {
+                margin-top: 10px;
+                height: 200px;
+                border-radius: 25px;
+                border: 1px solid #dce8ff;
+            }
+            button {
+                margin-top: 10px;
+            }
+        }
+        aside {
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+            .call::before {
+                font-family: "Font Awesome 5 Free";
+                color: $buttoncolor;
+                font-size: 20px ;
+                content: '\f082';
+            }
+            .mail::before {
+                font-family: "Font Awesome 5 Free";
+                color: $buttoncolor;
+                font-size: 20px ;
+                content: '\f0e0'
+            }
+            i {
+                font-size: 25px;
+                color: $buttoncolor;
+            }
+        }
+    }
+}
